@@ -8,14 +8,14 @@ def distribute_candy(children_ratings: list) -> int:
     Input Format:
         A list of Numbers representing children ratings.
     Output Format:
-        Minium number of candies to be given.
+        Minimum number of candies to be given.
 
-    children_ratings = [1, 2]
-    >>> 3
-    children_ratings = [1, 5, 2, 1]
-    >>> 7
-    children_ratings = [1, 3, 2, 1]
-    >>> 7
+    >>> distribute_candy([1, 2])
+    3
+    >>> distribute_candy([1, 5, 2, 1])
+    7
+    >>> distribute_candy([1, 3, 2, 1])
+    7
     """
 
     candy = [1] * len(children_ratings)
